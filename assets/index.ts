@@ -5,13 +5,9 @@ import SamsungLogo from "./samsung-logo.svg"
 import Logo from "./Esim_Direct_Logo.svg"
 import HeroBackground from "./heroimg.svg"
 import HeroImage from "./Plane_Flying_Over_Map.svg"
+import Australia from "./Flags/Australia.png"
+import China from "./Flags/China.png"
+import Europe from "./Flags/Europe.png"
+import USA from "./Flags/USA.png"
 
-export {
-  AppleLogo,
-  GoogleLogo,
-  NokiaLogo,
-  SamsungLogo,
-  Logo,
-  HeroBackground,
-  HeroImage,
-}
+export { AppleLogo, GoogleLogo, NokiaLogo, SamsungLogo, Logo, HeroBackground, HeroImage, Australia, China, Europe, USA }

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Europe, Australia, China, USA } from "@/assets/Flags/index"
+import { Europe, Australia, China, USA } from "@/assets"
 import { LinkButton } from "../Buttons"
 
 const Services = () => {
