@@ -106,10 +106,10 @@ module.exports = {
               800: "#423c0d",
               900: "#211e06",
             },
-            white: {
+            content1: {
               100: "#FFF4F4",
             },
-            dark: {
+            default: {
               100: "#191D24",
             },
           },

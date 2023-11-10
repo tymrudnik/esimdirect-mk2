@@ -3,7 +3,7 @@
 import { useForm } from "react-hook-form"
 
 const ContactForm = () => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-white-100 text-primary-600 px-5 py-3 placeholder-black`
+  const inputStyles = `mb-5 w-full rounded-lg bg-content1-100 text-primary-600 px-5 py-3 placeholder-black`
   const {
     register,
     trigger,

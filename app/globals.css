@@ -27,7 +27,7 @@ p {
   @apply text-base;
 }
 body {
-  @apply bg-primary-500 text-white-100;
+  @apply bg-primary-500 text-content1-100;
 }
 section {
   @apply py-6;
