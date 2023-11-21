@@ -39,7 +39,7 @@ section {
   @apply flex justify-between items-center;
 }
 .hero-left {
-  @apply flex flex-col justify-center items-start;
+  @apply flex flex-col justify-center lgx:items-start;
 }
 .hero-title {
   @apply text-5xl font-title  phone:leading-none;

@@ -22,3 +22,20 @@ export const ActionButton = ({ text, handleClick }: ButtonProps) => {
     </button>
   )
 }
+
+export const ScrollButton = ({ text, scrollToLoc }: ButtonProps) => {
+  const scrollTo = (section: string) => {
+    const Section = document.getElementById(section)
+    if (Section) {
+      Section.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+  return (
+    <button
+      onClick={() => scrollTo(scrollToLoc || "")}
+      className="inline-flex items-center py-2 px-6 bg-secondary-500 hover:bg-secondary-600 font-bold text-dark-100"
+    >
+      {text}
+    </button>
+  )
+}
