@@ -30,9 +30,9 @@ const Device: React.FC<DeviceProps> = ({ device }) => {
         <ul>
           {device.phones.map((phone) => (
             <li className="py-1" key={phone.name}>
-              <a href={phone.link} target="_blank">
-                {phone.name}
-              </a>
+              {/* <a href={phone.link} target="_blank"> */}
+              {phone.name}
+              {/* </a> */}
             </li>
           ))}
         </ul>

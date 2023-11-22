@@ -17,48 +17,47 @@ export const supportedDevicesArr: DeviceType[] = [
     company: "Google",
     icon: GoogleLogo,
     phones: [
-      { name: "Pixel 6", link: "https://store.google.com/us/product/pixel_6" },
+      { name: "Pixel 8", link: "https://store.google.com/us/product/pixel_6" },
       {
-        name: "Pixel 5a",
+        name: "Pixel 7",
         link: "https://store.google.com/us/product/pixel_5a",
       },
       {
-        name: "Pixel 4a",
+        name: "Pixel 6",
         link: "https://store.google.com/us/product/pixel_4a",
       },
-      { name: "Pixel 4", link: "https://store.google.com/us/product/pixel_4" },
+      { name: "Pixel 5", link: "https://store.google.com/us/product/pixel_4" },
     ],
   },
   {
     company: "Nokia",
     icon: NokiaLogo,
     phones: [
-      { name: "Pixel 6", link: "https://store.google.com/us/product/pixel_6" },
+      { name: "G60 5G", link: "https://store.google.com/us/product/pixel_6" },
       {
-        name: "Pixel 5a",
+        name: "X30",
         link: "https://store.google.com/us/product/pixel_5a",
       },
       {
-        name: "Pixel 4a",
+        name: "XR21",
         link: "https://store.google.com/us/product/pixel_4a",
       },
-      { name: "Pixel 4", link: "https://store.google.com/us/product/pixel_4" },
     ],
   },
   {
     company: "Samsung",
     icon: SamsungLogo,
     phones: [
-      { name: "Pixel 6", link: "https://store.google.com/us/product/pixel_6" },
+      { name: "Galaxy S23", link: "https://store.google.com/us/product/pixel_6" },
       {
-        name: "Pixel 5a",
+        name: "Galaxy S22",
         link: "https://store.google.com/us/product/pixel_5a",
       },
       {
-        name: "Pixel 4a",
+        name: "Galaxy S21",
         link: "https://store.google.com/us/product/pixel_4a",
       },
-      { name: "Pixel 4", link: "https://store.google.com/us/product/pixel_4" },
+      { name: "Galaxy S20", link: "https://store.google.com/us/product/pixel_4" },
     ],
   },
 ]
