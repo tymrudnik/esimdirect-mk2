@@ -44,3 +44,6 @@ section {
 .hero-title {
   @apply text-5xl font-title  phone:leading-none;
 }
+.phone-link:hover {
+  @apply text-secondary-500;
+}
