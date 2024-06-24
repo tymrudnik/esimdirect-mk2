@@ -1,13 +1,13 @@
 import Image from "next/image"
-import { Europe, Australia, China, USA } from "@/assets"
+import { Europe, Turkiye, UnitedKingdom, USA } from "@/assets"
 import { LinkButton } from "../Buttons"
 
 const Services = () => {
   const link = "https://www.getnomad.app/?rfsn=7643611.afb60e"
-  const eurLink = link
-  const usaLink = link
-  const chnLink = link
-  const ausLink = link
+  const eurLink = "https://www.ebay.co.uk/itm/395425917316"
+  const usaLink = "https://www.ebay.co.uk/itm/395414992855"
+  const turLink = "https://www.ebay.co.uk/itm/395488986979"
+  const ukLink = "https://www.ebay.co.uk/itm/395463288878"
 
   return (
     <section className="bg-primary-600 my-10">
@@ -33,20 +33,20 @@ const Services = () => {
                 width={261}
               />
             </a>
-            <a href={chnLink} target="_blank">
+            <a href={turLink} target="_blank">
               <Image
                 className="rounded-2xl drop-shadow-sm opacity-70 hover:drop-shadow-xl hover:opacity-100 hover:brightness-125"
-                src={China}
-                alt="china_flag"
+                src={Turkiye}
+                alt="turkiye_flag"
                 height={146}
                 width={261}
               />
             </a>
-            <a href={ausLink} target="_blank">
+            <a href={ukLink} target="_blank">
               <Image
                 className="rounded-2xl drop-shadow-sm opacity-70 hover:drop-shadow-xl hover:opacity-100 hover:brightness-125"
-                src={Australia}
-                alt="australia_flag"
+                src={UnitedKingdom}
+                alt="united_kingdom_flag"
                 height={146}
                 width={261}
               />
