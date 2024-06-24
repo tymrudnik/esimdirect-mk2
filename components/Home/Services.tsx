@@ -58,7 +58,7 @@ const Services = () => {
             Browse our <br /> services & <br /> <span className="text-secondary-500">offerings</span>
           </h1>
           <p className="pb-4">Click on the region you wish to travel to and see what we have to offer.</p>
-          <LinkButton text="See More" dest={link} />
+          {/* <LinkButton text="See More" dest={link} /> */}
         </div>
       </div>
     </section>
