@@ -16,10 +16,17 @@ const ContactForm = () => {
     }
   }
   return (
-    <div id="contact-section" className="mx-auto w-3/4 lgx:w-2/4 py-10">
+    <div id="contact-section" className="mx-auto w-3/4 lgx:w-2/4 py-10 text-center">
       <h1 className="">Looking for more support?</h1>
       <p className="text-secondary-500">Get in touch with us</p>
-      <div className="py-10">
+      <p>
+        Send us an{" "}
+        <a href="mailto:info@esimdirect.net" className="text-secondary-500">
+          email
+        </a>
+        : info@esimdirect.net
+      </p>
+      {/* <div className="py-10">
         <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/info@esimdirect.net" method="POST">
           <input
             className={inputStyles}
@@ -80,7 +87,7 @@ const ContactForm = () => {
             SUBMIT
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   )
 }
